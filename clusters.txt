@@ -1,0 +1,5 @@
+K-Means Clustering Results (k=3)
+===================================
+Cluster 0: 3448333 samples
+Cluster 1: 81324 samples
+Cluster 2: 4125616 samples

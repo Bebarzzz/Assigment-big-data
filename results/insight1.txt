@@ -1,0 +1,4 @@
+INSIGHT 1: DATASET INVENTORY
+------------------------------
+Total Crimes Logged: 7655273
+Number of Columns: 26

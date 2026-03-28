@@ -1,0 +1,6 @@
+INSIGHT 3: CRIME INTENSITY DISTRIBUTION
+------------------------------
+level_bin
+0    2551758
+1    2551757
+2    2551758

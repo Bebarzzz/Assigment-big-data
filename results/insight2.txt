@@ -1,0 +1,17 @@
+INSIGHT 2: FREQUENCY ANALYSIS
+------------------------------
+Top 5 Crime Type Codes:
+Primary Type
+ 1.3906    1614676
+-1.0713    1402829
+-0.7636     872709
+ 0.2366     744269
+-1.1483     496882
+
+Top 5 Location Codes:
+Location Description
+ 0.7762    1988236
+ 0.3237    1289399
+-1.9710     855088
+ 0.6954     723474
+ 0.0005     270044
