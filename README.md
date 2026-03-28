@@ -15,7 +15,7 @@
 Chicago Crimes dataset with over 7.6 million crime records including
 crime type, location, date, and arrest status.
 
-Source: https://data.cityofchicago.org/
+Source: https://www.kaggle.com/datasets/salikhussaini49/chicago-crimes
 
 ---
 
