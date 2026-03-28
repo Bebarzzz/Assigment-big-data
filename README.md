@@ -2,10 +2,10 @@
 ## Chicago Crimes Data Pipeline
 
 **Team Members:**
-- Mostafa Bebars
-- Omar Khaled
-- Eyad Ahmed
-- Mostafa Awad
+- Mostafa Bebars - 231000161
+- Omar Khaled    - 231000
+- Eyad Ahmed     - 231000644
+- Mostafa Awad   - 231000
 
 ---
 
