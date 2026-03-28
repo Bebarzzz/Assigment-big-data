@@ -5,7 +5,7 @@
 - Mostafa Bebars - 231000161
 - Omar Khaled    - 231000114
 - Eyad Ahmed     - 231000644
-- Mostafa Awad   - 231000677
+- Moustafa Awaad - 231000677
 
 
 ---
@@ -21,23 +21,25 @@ Source: https://data.cityofchicago.org/
 
 ## Project Structure
 ```
-customer-analytics/
-├── Dockerfile
-├── ingest.py
-├── preprocessing.py
-├── analytics.py
-├── visualize.py
-├── cluster.py
-├── summary.sh
+.
 ├── README.md
-└── results/
-    ├── data_raw.csv
-    ├── data_preprocessed.csv
-    ├── insight1.txt
-    ├── insight2.txt
-    ├── insight3.txt
-    ├── summary_plot.png
-    └── clusters.txt
+├── .gitignore
+└── customer-analytics/
+    ├── Dockerfile
+    ├── ingest.py
+    ├── preprocessing.py
+    ├── analytics.py
+    ├── visualize.py
+    ├── cluster.py
+    ├── summary.sh
+    └── results/
+        ├── data_raw.csv
+        ├── data_preprocessed.csv
+        ├── insight1.txt
+        ├── insight2.txt
+        ├── insight3.txt
+        ├── summary_plot.png
+        └── clusters.txt
 ```
 
 ---
@@ -53,22 +55,26 @@ Each script calls the next one automatically when it finishes.
 
 ## How to Run
 
-### 1. Build the image
+### 1. Navigate to the project folder
+```bash
+cd customer-analytics
+
+### 2. Build the image
 ```bash
 docker build -t bigdata-pipeline .
 ```
 
-### 2. Run the container
+### 3. Run the container
 ```bash
 docker run -it --name bigdata-container -v "${PWD}:/app/pipeline/" bigdata-pipeline
 ```
 
-### 3. Inside the container, start the pipeline
+### 4. Inside the container, start the pipeline
 ```bash
 python3 ingest.py chicago.db
 ```
 
-### 4. In a new terminal, copy results and clean up
+### 5. In a new terminal, copy results and clean up
 ```bash
 bash summary.sh
 ```
