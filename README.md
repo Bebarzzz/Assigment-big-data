@@ -58,6 +58,7 @@ Each script calls the next one automatically when it finishes.
 ### 1. Navigate to the project folder
 ```bash
 cd customer-analytics
+```
 
 ### 2. Build the image
 ```bash
