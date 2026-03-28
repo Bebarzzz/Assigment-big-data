@@ -3,9 +3,9 @@
 
 **Team Members:**
 - Mostafa Bebars - 231000161
-- Omar Khaled    - 231000
+- Omar Khaled    - 231000114
 - Eyad Ahmed     - 231000644
-- Mostafa Awad   - 231000
+- Mostafa Awad   - 231000677
 
 
 ---
@@ -95,12 +95,17 @@ bash summary.sh
 
 **Pipeline execution log:**
 ```
-loading data...
-preprocessing done
-analytics done
-visualization done
-clustering done
-ALL DONE
+Loading dataset from: chicago.db
+Tables found: ['Crimes']
+Saved as data_raw.csv - 7655273 rows loaded
+Starting preprocessing on: data_raw.csv
+Preprocessing done, saved to data_preprocessed.csv
+Generating insights from: data_preprocessed.csv
+Insights saved to insight1.txt, insight2.txt, insight3.txt
+Creating plots from: data_preprocessed.csv
+Plot saved as summary_plot.png
+Running clustering on: data_preprocessed.csv
+Cluster sizes saved to clusters.txt
 ```
 
 **insight1.txt:**
@@ -108,16 +113,47 @@ ALL DONE
 INSIGHT 1: DATASET INVENTORY
 ------------------------------
 Total Crimes Logged: 7655273
-Number of Columns: 28
+Number of Columns: 26
+```
+
+**insight2.txt:**
+```
+INSIGHT 2: FREQUENCY ANALYSIS
+------------------------------
+Top 5 Crime Type Codes:
+Primary Type
+ 1.3906    1614676
+-1.0713    1402829
+-0.7636     872709
+ 0.2366     744269
+-1.1483     496882
+
+Top 5 Location Codes:
+Location Description
+ 0.7762    1988236
+ 0.3237    1289399
+-1.9710     855088
+ 0.6954     723474
+ 0.0005     270044
+```
+
+**insight3.txt:**
+```
+INSIGHT 3: CRIME INTENSITY DISTRIBUTION
+------------------------------
+level_bin
+0    2551758
+1    2551757
+2    2551758
 ```
 
 **clusters.txt:**
 ```
 K-Means Clustering Results (k=3)
 ===================================
-Cluster 0: XXXX samples
-Cluster 1: XXXX samples
-Cluster 2: XXXX samples
+Cluster 0: 3448333 samples
+Cluster 1: 81324 samples
+Cluster 2: 4125616 samples
 ```
 
 ---
